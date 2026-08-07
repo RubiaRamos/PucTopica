@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puctopia Classic - Enciclopédia de Classes</title>
+    <!-- Missão 11: CSS em arquivo separado, manda ver Rubia! -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#paladin">Classes</a></li>
+                <li><a href="#stats">Estatísticas</a></li>
+                
+                <li class="logo-central">
+                    <div>
+                        <!-- Missão 01: <h1> com o nome da nossa pagina -->
+                        <h1>Puctopia Classic</h1>
+                    </div>
+                </li>
+                
+                <li><a href="#quests">Quests</a></li>
+                <li><a href="#lore">Lore</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo da página -->
+    <main>
+
+        <!-- Missão 02: Heróis separados por <h2> -->
+        <section id="paladin" class="card-heroi">  <!-- HERÓI 1: PALADINO (Bhalfur) -->
+            <h2>Paladin</h2>
+            
+            <div class="conteudo-heroi">
+                <img src=" " alt=" ">
+                
+                <div class="descricao">
+                    <!-- Missão 03: Três parágrafos descrevendo os heróis -->
+                    <!-- Missão 04: <b> no nome e <i> na habilidade -->
+                    <!-- Missão 05: <mark> para destaque -->
+                    <p>O <b>Paladino</b> é o Campeão Sagrado da Luz. Sua origem remonta às antigas ordens de cavaleiros que juraram proteger os fracos. Em combate, ele é uma muralha intransponível que utiliza a habilidade <i>Shield of the Righteous</i> para absorver danos letais na linha de frente.</p>
+                    
+                    <p>Sua missão principal é expurgar as forças necróticas que assolam o reino. Ele domina magias sagradas para restaurar a saúde de seus aliados em momentos de crise extrema. <mark>Ele nunca recua diante da escuridão, lutando até o último suspiro.</mark></p>
+                    
+                    <p>O que o torna verdadeiramente perigoso não é apenas sua força bruta com martelos de duas mãos, mas sua inabalável convicção tática que inspira exércitos inteiros a continuarem lutando.</p>
+                </div>
+            </div>
+
+            <!-- Missão 07: <ul> com três ou mais <li> (Poderes) -->
+            <div class="poderes">
+                <h3>Ações de Combate</h3>
+                <ul>
+                    <li>Holy Light (Cura)</li>
+                    <li>Divine Storm (Dano em Área)</li>
+                    <li>Blessing of Protection (Imunidade)</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- HERÓI 2: NECROMANCER (Conde-Galê) -->
+        <section id="necromancer" class="card-heroi">
+            <h2>Necromancer</h2>
+            
+            <div class="conteudo-heroi">
+                <img src=" " alt="">
+                
+                <div class="descricao">
+                    <p>O <b>Necromancer</b> História aqui.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- HERÓI 3: HUNTER(Cat-man) -->
+        <section id="hunter" class="card-heroi">
+            <h2>Hunter</h2>
+            
+            <div class="conteudo-heroi">
+                <img src=" " alt=" ">
+                
+                <div class="descricao">
+                    <p>A <b>Hunter</b> História aqui.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Missão 09: <table> com 4 colunas (<th>) e 3 linhas de heróis (<td>) -->
+        <section id="stats">
+            <h2>Tabela dos Campeões</h2>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Universo/Facção</th>
+                    <th>Poder Principal</th>
+                    <th>Arma Clássica</th>
+                </tr>
+                <tr>
+                    <td>Paladino</td>
+                    <td>Aliança</td>
+                    <td>Magia Sagrada</td>
+                    <td>Martelo de Guerra</td>
+                </tr>
+                <tr>
+                    <td>Necromancer</td>
+                    <td>Horda</td>
+                    <td>Reanimação</td>
+                    <td>Foice Sombria</td>
+                </tr>
+                <tr>
+                    <td>Hunter</td>
+                    <td>Neutro</td>
+                    <td>Domínio de Feras</td>
+                    <td>Arco Longo</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Missão 08: <ol> com três ou mais <li> (Ordem importa) -->
+        <section id="quests">
+            <h2>Sumário de Quests (Jornada do Jogador)</h2>
+            <ol>
+                <li>Criar sua conta de Puctopia</li>
+                <li>Escolher sua Classe Inicial</li>
+                <li>Completar o Tutorial de Batalha</li>
+                <li>Derrotar o primeiro Chefe de Masmorra</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- Missão 10: Dois links externos com target="_blank" começando com https:// -->
+        <section id="lore">
+            <h2>Links Secretos</h2>
+            <p>Descubra mais sobre o universo dos jogos de interpretação acessando a <a href="https://pt.wikipedia.org/wiki/Role-playing_game" target="_blank">página oficial do estilo RPG</a> ou mergulhe nos sistemas clássicos no <a href="https://dnd.wizards.com/" target="_blank">site do Dungeons & Dragons</a>.</p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé com nomes dos participantes.-->
+    <footer>
+        <p>Por Fábio(Bhalfur), Rafa(CatMan) e Rubia(Habibies)- 2026</p>
+    </footer>
+
+</body>
+</html>
