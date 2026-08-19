@@ -282,18 +282,29 @@
         </ul>
     </section>
 
+    <section class="controles">
+        <input type = "text" id="campoBusca"
+            placeholder="Buscar class"
+        <button id="botaOrdenar">Ordem alfabetica</button>
+    </section>
+
     <!-- Missão 09: <table> com 4 colunas (<th>) e 3 linhas de heróis (<td>) -->
     <section id="stats" class="personagem tabela">
         <h2>Tabela dos Campeões</h2>
 
         <table>
-            <tr>
-                <th>Nome</th>
-                <th>Universo/Facção</th>
-                <th>Poder Principal</th>
-                <th>Arma Clássica</th>
-            </tr>
-
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Universo/Facção</th>
+                    <th>Poder Principal</th>
+                    <th>Arma Clássica</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela">
+                <!-- vazio: o JavaScript preenche aqui -->
+            </tbody>
+<!--
             <tr>
                 <td class="lista1">Paladino</td>
                 <td>Aliança</td>
@@ -321,7 +332,7 @@
                 <td>Comunicação de felinos</td>
                 <td>Garras</td>
             </tr>
-
+-->
         </table>
     </section>
 
@@ -344,6 +355,7 @@
     <footer>
         <p>Por Fábio(Bhalfur), Rafa(CatMan) e Rubia(Habibies)- 2026</p>
     </footer>
-
+    
+<script src="script.js"></script>
 </body>
 </html>
