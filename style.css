@@ -1,7 +1,7 @@
 html{
     scroll-behavior:smooth;
     /* faz a página rolar de forma suave e gradual até uma nova seção, em vez de dar um salto 
-    seco e instantâneo */
+    seco e instantâneo.*/
 }
 
 body {
